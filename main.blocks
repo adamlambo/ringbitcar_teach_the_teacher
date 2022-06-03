@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="WFZBL0y_zt4Lpo6jNK@/" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id=":VqRI{;kH_sE||FyTDqM"><field name="LEDS">`
+        # . . . # 
+        # . . . . 
+        # # # . # 
+        # . # . # 
+        # . # . #
+        `</field><next><block type="device_pause" id="=qVy4}I!*w!][;6Cv0Cz"><value name="pause"><shadow type="timePicker" id="u*4]X^I1U,*Hr%GzSdS("><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id="NG$`oyIz2kH:|Z`%$}H+"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_pause" id="|7yhGN=p:JiL`H;]oKH)"><value name="pause"><shadow type="timePicker" id="MiuFOpCE9t:h@.=GFA^R"><field name="ms">3000</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="device_forever" id=";];awV9UQwqdXe;).S6o" x="359" y="13"><statement name="HANDLER"><block type="playMelody" id="rGydZjGy;LwzaP1xmIwK"><value name="melody"><shadow type="melody_editor" id="KRxb#e$X~]Dj#*cZq3[Q"><field name="melody">"C5 E A B E G E F "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="%6hN3s%km5MSph.I1?Sx"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></statement></block><block type="device_forever" id="]/L_=]_9og6=eqf6w!_W" x="924" y="34"><statement name="HANDLER"><block type="time_run" id="(Bv5oOV+`EZ#c+uiTiC."><field name="direction">RingbitCar.Direction_run.forward</field><value name="time"><shadow type="math_number" id="+@YX^}Cde]X1@)EY#vt:"><field name="NUM">2</field></shadow></value><next><block type="ringbitcar_left" id="`0IcBb/e;[j+kn+VN.}a"/></next></block></statement></block></xml>
